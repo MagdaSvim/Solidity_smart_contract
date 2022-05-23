@@ -1,7 +1,3 @@
-/*
-Joint Savings Account
----------------------
-
 pragma solidity ^0.5.0;
 
 // Create a Joint Savings Account Contract
@@ -52,5 +48,6 @@ contract JointSavings{
     // Add a fallback function so that your contract can store ether that’s sent from outside the deposit function
     function() external payable {}
 }
+
 
 
